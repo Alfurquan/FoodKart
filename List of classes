@@ -1,0 +1,34 @@
+FoodKart App (Online food ordering app)
+
+--List of Entities
+
+--User
+-String id
+-String name
+-Gender gender
+-String phoneNumber
+-String pincode
+
+--FoodItem
+-String name
+-double price
+-int qty
+
+-Review
+-String id
+-double score
+-String comment
+
+--Restaurant
+-String id
+-String name
+-List<String> serviceablePincodes
+-FoodItem foodItem
+-User owner
+-List<Review> reviews;
+-double rating
+
+--UserSession
+-User currentUsers
+
+
